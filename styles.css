@@ -1,0 +1,8 @@
+#forcast{
+  display: none;
+  padding: 20px;
+  text-align: center;
+}
+.container{
+  background-color: lightblue;
+}

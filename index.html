@@ -1,0 +1,62 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+	   <meta charset="utf-8">
+
+     <title>Weather App</title>
+     <meta name="description" content="Weather Info">
+     <link rel="stylesheet" href="styles.css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <script src="jquery-2.1.4.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+     <script src="api.js"></script>
+
+</head>
+<body>
+  <header>
+    <nav class = "navbar navbar-default navbar-fixed-top" role = 'navigation'>
+      <div class = "navbar-form" role = "search">
+          <div class = "form-group">
+            <label for = "city">City</label>
+            <input type="text" id = "city" class = "form-control" placeholder="ENTER CITY HERE"/>
+      </div>
+        <label for = "state">State or Country</label>
+        <input type="text" id = "state"class = "form-control" placeholder="STATE/COUNTRY"/>
+        <button type="submit" id = "search" class="btn btn-default">Get Weather</button>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a class = "forcast" href = "#">Forcast</a></li>
+  </header>
+  <div class = 'container'>
+    <div class = 'jumbotron'>
+      <div class = "row">
+        <div class = "col-md-6">
+          <div style = "color: "black" id = 'results'>
+
+        </div>
+      </div>
+        <div class = "col-md-6">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id = "forcast" class = "container">
+    <div class = "row">
+      <div id = 'per1' class = "col-md-4">
+        </div>
+        <div id = 'per2' class = "col-md-4">
+        </div>
+        <div id = 'per3' class = "col-md-4">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+      </div>
+    </div>
+  </div>
+  </body
+</html>
